@@ -9,6 +9,7 @@ body {
 }
 
 /*Calling out header element and its children elements*/
+/*Header & Nav section start*/
 
 header {
     padding: 20px;
@@ -42,6 +43,8 @@ header ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/*Header & Nav section end*/
 
 a {
     color: #ffffff;
