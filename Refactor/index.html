@@ -2,7 +2,6 @@
 <html lang="en-us">
 
 <!--Updated webpage name to be accurate to company-->
-<!--Testing commits-->
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -10,10 +9,10 @@
 </head>
 
 <body>
-    <div class="header">
+<!--Using header element instead of a div with class:"header"-->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
+        <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -23,10 +22,12 @@
                 <li>
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
-            </ul>
-        </div>
+        </ul>
+    </header>
+<!--Inserted the image source in the html instead of the css (as a background image) and added an alt-tag for added accessibility-->
+    <div class="hero">
+        <img src="./assets/images/digital-marketing-meeting.jpg" alt="Digital Marketing Meeting" />
     </div>
-    <div class="hero"></div>
     <div class="content">
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
