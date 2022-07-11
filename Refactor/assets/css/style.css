@@ -69,13 +69,13 @@ header ul li {
 
 /* Main section start */
 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content article {
+main article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -84,7 +84,7 @@ header ul li {
     color: #ffffff;
 }
 
-.content article img {
+main article img {
     max-height: 200px;
 }
 
@@ -98,7 +98,7 @@ header ul li {
     margin-left: 25px;
 }
 
-.content article h2 {
+main article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
